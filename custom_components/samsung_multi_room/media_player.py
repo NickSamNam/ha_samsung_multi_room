@@ -44,18 +44,15 @@ from homeassistant.const import (
 )
 
 MULTI_ROOM_SOURCE_TYPE = [
-  'optical',
-  'soundshare',
-  'hdmi',
   'wifi',
-  'aux',
-  'bt',
-  'wifi - TuneIn'
-  #wifi - submode: dlna, cp
+  'bluetooth',
+  'HDMI1',
+  'HDMI2',
+  'digital'
 ]
 
 DEFAULT_NAME = 'Samsung Soundbar'
-DEFAULT_PORT = '55001'
+DEFAULT_PORT = '56001'
 DEFAULT_POWER_OPTIONS = True
 DEFAULT_MAX_VOLUME = '40'
 BOOL_OFF = 'off'
