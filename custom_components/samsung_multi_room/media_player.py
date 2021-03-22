@@ -44,11 +44,11 @@ from homeassistant.const import (
 )
 
 MULTI_ROOM_SOURCE_TYPE = [
-  'wifi',
-  'bluetooth',
-  'HDMI1',
-  'HDMI2',
-  'digital'
+  'wifidlna',
+  'bt',
+  'hdmi1',
+  'hdmi2',
+  'optical'
 ]
 
 DEFAULT_NAME = 'Samsung Soundbar'
