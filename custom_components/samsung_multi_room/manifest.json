@@ -4,5 +4,6 @@
     "documentation": "https://github.com/NickSamNam/ha_samsung_multi_room",
     "dependencies": ["http"],
     "codeowners": ["@NickSamNam"],
-    "requirements": ["xmltodict==0.11.0"]
+    "requirements": ["xmltodict==0.11.0"],
+    "version": "0.0.1"
   }
